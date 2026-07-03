@@ -12,11 +12,12 @@ Video:
 
 The software was developed using the following tools:
 
+- Visual Studio Code
 - Java Development Kit (JDK)
-- IntelliJ IDEA (or Eclipse/VS Code, depending on the IDE used)
-- Git and GitHub for version control
-- UML diagrams for planning the application structure
-
+- Extension Pack for Java
+- Git
+- GitHub
+- 
 The programming language used for this project is Java. Java was selected because it provides strong support for object-oriented programming and offers useful libraries for managing collections, user interaction, and application development.
 
 # Useful Websites
