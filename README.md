@@ -6,7 +6,7 @@ The software is designed to simulate the core functionality of a social networki
 
 My purpose in creating this software is to strengthen my understanding of Java development and improve my ability to design and implement applications using object-oriented principles. 
 
-Video:
+Video: https://youtu.be/W-IzaNHhjz8
 
 # Development Environment
 
@@ -17,7 +17,7 @@ The software was developed using the following tools:
 - Extension Pack for Java
 - Git
 - GitHub
-- 
+
 The programming language used for this project is Java. Java was selected because it provides strong support for object-oriented programming and offers useful libraries for managing collections, user interaction, and application development.
 
 # Useful Websites
