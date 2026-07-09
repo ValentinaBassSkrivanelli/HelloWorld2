@@ -54,5 +54,13 @@ public class User {
             following.add(user);
             user.addFollower(this);
         }
+//Avoids following oneself and ensures that the user is not already following the specified user        
+        if (user != this && !following.contains(user)) {
+            following.add(user);
+            user.addFollower(this);
+    }
+
     }
 }
+
+      
