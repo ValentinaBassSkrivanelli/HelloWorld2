@@ -27,12 +27,26 @@ public class User {
     for (Post post : posts) {
         post.displayPost();
     }}
-
+//followers for the user
     private void addFollower(User user) {
         if (!followers.contains(user)) {
             followers.add(user);
         }
     }
+
+//Unfollows a user
+    public void unfollow(User user) {
+        if (following.contains(user)) {
+            following.remove(user);
+            user.removeFollower(this);
+        }
+    }
+//Removes a follower from the list of users that the user is following
+    private void removeFollower(User user) {
+        followers.remove(user);
+    }
+
+//Adds a follower to the list of users that the user is following
 
     public void follow(User user) {
         if (!following.contains(user)
