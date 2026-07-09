@@ -20,5 +20,13 @@ public class Main {
         // Display users' posts
         user1.showPosts();
         user2.showPosts();
-    }
+
+        // Test following and unfollowing
+        user1.follow(user2);
+        user1.unfollow(user2);
+
+        // TEST: Display followers and following
+        user1.showFollowers();
+        user1.showFollowing();
+}
 }

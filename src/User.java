@@ -47,20 +47,34 @@ public class User {
     }
 
 //Adds a follower to the list of users that the user is following
-
+//Avoids following oneself and ensures that the user is not already following the specified user      
     public void follow(User user) {
-        if (!following.contains(user)
-        ) {
-            following.add(user);
-            user.addFollower(this);
-        }
-//Avoids following oneself and ensures that the user is not already following the specified user        
+  
         if (user != this && !following.contains(user)) {
             following.add(user);
             user.addFollower(this);
     }
 
     }
+//Show followers
+    public void showFollowers() {
+
+    System.out.println(username + "'s followers:");
+
+    for (User follower : followers) {
+        System.out.println(follower.username);
+    }
+    }
+//Show following
+    public void showFollowing() {
+
+    System.out.println(username + " is following:");
+
+    for (User followed : following) {
+        System.out.println(followed.username);
+    }
+}
+
 }
 
       
