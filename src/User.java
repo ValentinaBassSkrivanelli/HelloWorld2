@@ -18,6 +18,7 @@ public class User {
 // Adds a post to the user's list of posts
     public void addPost(Post post) {
         posts.add(post);
+        FileManager.savePost(post);
     }
 // Displays all posts made by the user
     public void showPosts() {

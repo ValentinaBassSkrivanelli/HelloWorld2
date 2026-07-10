@@ -6,7 +6,16 @@ public class Post {
     private String content;
     private String author;
     private LocalDateTime date;
-
+    public String getAuthor() {
+        return author;
+    }
+    public String getContent() {
+        return content;
+    }
+    public LocalDateTime getDate() {
+        return date;
+    }
+    
     public Post(int id, String content, String author) {
         /*Assigns the id passed into the constructor to the object's own id variable.*/
         this.id = id;
