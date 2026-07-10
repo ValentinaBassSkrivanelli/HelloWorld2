@@ -6,7 +6,6 @@ The software is designed to simulate the core functionality of a social networki
 
 My purpose in creating this software is to strengthen my understanding of Java development and improve my ability to design and implement applications using object-oriented principles. 
 
-Video: https://youtu.be/W-IzaNHhjz8
 
 # Development Environment
 
