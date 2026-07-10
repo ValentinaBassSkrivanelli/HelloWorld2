@@ -23,10 +23,20 @@ public class Main {
 
         // Test following and unfollowing
         user1.follow(user2);
-        user1.unfollow(user2);
+        //UNCOMMENT TO TEST A SECOND TIME
+        //user1.unfollow(user2);
 
         // TEST: Display followers and following
         user1.showFollowers();
+        user1.showFollowing();
+
+
+        user1.showFeed();
+
+        user1.unfollow(user2);
+
+        System.out.println();
+
         user1.showFollowing();
 }
 }

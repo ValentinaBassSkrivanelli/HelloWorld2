@@ -75,6 +75,14 @@ public class User {
     }
 }
 
+    public void showFeed() {
+        System.out.println(username + "'s feed:");
+        for (User followed : following) {
+            System.out.println("Posts from " + followed.username + ":");
+            followed.showPosts();
+        }
+    }
+
 }
 
       
